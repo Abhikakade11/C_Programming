@@ -3,6 +3,17 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+///////////////////////////////////////////////////////////////////
+//
+// Function Name : Check
+// Input         : Integer
+// Output        : Boolean
+// Descryption   : check is divisible 5 or not
+// Date          : 19/10/2026
+// Author        : Abhijit Ganesh kakade
+//
+///////////////////////////////////////////////////////////////////
+
 typedef int BOOL;
 #define True 1
 #define False 0
@@ -21,6 +32,12 @@ BOOL Cheak(int iNo1)
     }
    
 }
+
+////////////////////////////////////////////////////////////////
+//
+// Entery Point Function main
+//
+////////////////////////////////////////////////////////////////
 
 int main()
 {
