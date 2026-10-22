@@ -1,8 +1,21 @@
 // Check Voting Eligibility
 
-
 #include <stdio.h>
 #include <stdlib.h>
+
+
+typedef int BOOL;
+
+///////////////////////////////////////////////////////////////////
+//
+// Function Name : CheakVotingEligibility
+// Input         : Integer
+// Output        : Integer
+// Descryption   : Cheak you are Eligible or Not for Voting
+// Date          : 21/10/2026
+// Author        : Abhijit Ganesh Kakade
+//
+///////////////////////////////////////////////////////////////////
 
 void CheckVotingEligibility(int iAge)
 {
@@ -15,6 +28,12 @@ void CheckVotingEligibility(int iAge)
         printf("Not Eligible for Voting\n");
     }
 }
+
+/////////////////////////////////////////////////////////////
+//
+// Entry Point Function Main
+//
+//////////////////////////////////////////////////////////////
 
 int main()
 {
