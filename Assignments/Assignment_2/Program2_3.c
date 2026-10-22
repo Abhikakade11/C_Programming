@@ -4,6 +4,16 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+///////////////////////////////////////////////////////////////////
+//
+// Function Name : Display
+// Input         : Integer
+// Descryption   : if number is less than 10 then print "hello" otherwise print "Demo"
+// Date          : 19/10/2026
+// Author        : Abhijit Ganesh Kakade
+//
+///////////////////////////////////////////////////////////////////
+
 void Display(int iNo)
 {
     if(iNo < 10)
@@ -15,6 +25,12 @@ void Display(int iNo)
         printf("Demo...\n");
     }
 }
+
+////////////////////////////////////////////////////////////////
+//
+// Entry Point Function Main
+//
+///////////////////////////////////////////////////////////////
 
 int main()
 {
