@@ -3,9 +3,20 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-typedef int BOOL;
+typedef int BOOL;        // typedef integer into BOOL
 #define True 1
-#define False 0
+#define False 0             
+
+///////////////////////////////////////////////////////////////////
+//
+// Function Name : CheckEven
+// Input         : Integer
+// Output        : Boolean
+// Descryption   : check whether is even or odd
+// Date          : 19/10/2026
+// Author        : Abhijit Ganesh Kakade
+//
+///////////////////////////////////////////////////////////////////
 
 
 BOOL CheakEven(int iNo1)
@@ -21,6 +32,12 @@ BOOL CheakEven(int iNo1)
     }
    
 }
+
+/////////////////////////////////////////////////////////////////////////
+//
+// Entry Point Function Main
+//
+/////////////////////////////////////////////////////////////////////////
 
 int main()
 {
