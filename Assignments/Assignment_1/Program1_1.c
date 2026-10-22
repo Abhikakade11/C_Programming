@@ -4,6 +4,16 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+///////////////////////////////////////////////////////////////////
+//
+// Function Name : Divide
+// Input         : Integer ,Integer
+// Descryption   : print Division
+// Date          : 19/10/2026
+// Author        : Abhijit Ganesh Kakade 
+//
+///////////////////////////////////////////////////////////////////
+
 int Divide(int iNo1, int iNo2)
 {
     int iAns = 0;
@@ -17,6 +27,12 @@ int Divide(int iNo1, int iNo2)
     return iAns;
    
 }
+
+//////////////////////////////////////////////////////////////
+//
+// Entry Point Function main
+//
+/////////////////////////////////////////////////////////////
 
 int main()
 {
