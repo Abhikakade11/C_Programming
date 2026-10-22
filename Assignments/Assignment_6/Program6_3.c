@@ -4,6 +4,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+///////////////////////////////////////////////////////////////////
+//
+// Function Name : ClaculateDiscount
+// Input         : Float
+// Output        : Float
+// Descryption   : Cheak Discount Worth it or not to buy
+// Date          : 21/10/2026
+// Author        : Abhijit Ganesh Kakade
+//
+///////////////////////////////////////////////////////////////////
+
 void CalculateDiscount(float fAmount)
 {
     float fDiscount = 0.0f;
@@ -33,6 +44,12 @@ void CalculateDiscount(float fAmount)
 
     printf("Payable Amount = %.2f\n", fFinalAmount);
 }
+
+/////////////////////////////////////////////////////////
+//
+// Entry Point Finction Main
+//
+//////////////////////////////////////////////////////////
 
 int main()
 {
