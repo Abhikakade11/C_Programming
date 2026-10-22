@@ -4,6 +4,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+///////////////////////////////////////////////////////////////////
+//
+// Function Name : DisplayGrade
+// Input         : Float
+// Output        : Float
+// Descryption   : Cheak Marks Greater or Grade A,B,C,D
+// Date          : 21/10/2026
+// Author        : Abhijit Ganesh Kakade
+//
+///////////////////////////////////////////////////////////////////
+
 void DisplayGrade(float fMarks)
 {
     if (((fMarks < 0) || (fMarks > 100)))
@@ -31,6 +42,12 @@ void DisplayGrade(float fMarks)
         printf("Fail\n");
     }
 }
+
+///////////////////////////////////////////////////////////////
+//
+// Entry Point Function Main
+//
+///////////////////////////////////////////////////////////////
 
 int main()
 {
