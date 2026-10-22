@@ -2,6 +2,17 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+///////////////////////////////////////////////////////////////////
+//
+// Function Name : CheckVowel
+// Input         : Charcter
+// Output        : Boolean
+// Descryption   : check is vowel or not 
+// Date          : 20/10/2026
+// Author        : Abhijit Ganesh Kakade
+//
+///////////////////////////////////////////////////////////////////
+
 typedef int BOOL;
 
 #define TRUE 1
@@ -22,6 +33,12 @@ BOOL ChkVowel(char cValue)
         return FALSE;
     }
 }
+
+/////////////////////////////////////////////////////////
+//
+// Entry Point FUnction Main
+//
+/////////////////////////////////////////////////////////
 
 int main()
 {
