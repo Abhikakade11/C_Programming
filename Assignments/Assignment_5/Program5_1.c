@@ -4,6 +4,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+///////////////////////////////////////////////////////////////////
+//
+// Function Name : FindGreatest
+// Input         : Integer , Integer, Integer
+// Output        : Integer
+// Descryption   : Find Greatest Number 
+// Date          : 21/10/2026
+// Author        : Abhijit Ganesh Kakade
+//
+///////////////////////////////////////////////////////////////////
+
 void FindGreatest(int iFirst, int iSecond, int iThird)
 {
     if (((iFirst >= iSecond) && (iFirst >= iThird)))
@@ -19,6 +30,12 @@ void FindGreatest(int iFirst, int iSecond, int iThird)
         printf("%d is Greatest\n", iThird);
     }
 }
+
+///////////////////////////////////////////////////////////////
+//
+//  Entry Point Function Main
+//
+///////////////////////////////////////////////////////////////
 
 int main()
 {
