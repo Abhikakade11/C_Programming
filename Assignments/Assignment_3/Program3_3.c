@@ -2,6 +2,17 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+///////////////////////////////////////////////////////////////////
+//
+// Function Name : DisplayEvenfactor
+// Input         : Integer
+// Output        : Integer
+// Descryption   : DisplayEvenfactors
+// Date          : 20/10/2026
+// Author        : Abhijit Ganesh Kakade
+//
+///////////////////////////////////////////////////////////////////
+
 void DisplayEvenFactor(int iNo)
 {
     int iCnt = 0;
@@ -24,6 +35,12 @@ void DisplayEvenFactor(int iNo)
         }
     }
 }
+
+/////////////////////////////////////////////////////////////////////////
+//
+// Entry Point Function Mainn
+//
+////////////////////////////////////////////////////////////////////////
 
 int main()
 {
