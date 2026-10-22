@@ -4,6 +4,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+///////////////////////////////////////////////////////////////////
+//
+// Function Name : CheakAdmission
+// Input         : Float ,Integer 
+// Output        : Elegible or Not
+// Descryption   : Cheak Marks and Age for Admission  
+// Date          : 21/10/2026
+// Author        : Abhijit Ganesh Kakade
+//
+///////////////////////////////////////////////////////////////////
+
 void CheckAdmission(float fMarks, int iAge)
 {
     if (((fMarks < 0)|| (fMarks > 100) || (iAge < 0)))
@@ -21,6 +32,12 @@ void CheckAdmission(float fMarks, int iAge)
         printf("Not Eligible\n");
     }
 }
+
+/////////////////////////////////////////////////////////////
+//
+// Entry point Function Main
+//
+///////////////////////////////////////////////////////////////
 
 int main()
 {
