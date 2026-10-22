@@ -4,6 +4,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+///////////////////////////////////////////////////////////////////
+//
+// Function Name : CheakLeapYear
+// Input         : Integer
+// Output        : Integer
+// Descryption   : Cheak Entered Year Leap or Not
+// Date          : 21/10/2026
+// Author        : Abhijit Ganesh Kakade
+//
+///////////////////////////////////////////////////////////////////
+
 void CheckLeapYear(int iYear)
 {
     if ((iYear <= 0))
@@ -27,6 +38,12 @@ void CheckLeapYear(int iYear)
         printf("Not a Leap Year\n");
     }
 }
+
+/////////////////////////////////////////////////////////////////////////////////
+//
+// Entry point Function Main
+//
+/////////////////////////////////////////////////////////////////////////////////
 
 int main()
 {
