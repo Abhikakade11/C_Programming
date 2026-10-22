@@ -4,6 +4,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+///////////////////////////////////////////////////////////////////
+//
+// Function Name : ClaculateBonus
+// Input         : Float , Integer
+// Output        : String Valid or Invalid
+// Descryption   : Claculate a bonus of the year 
+// Date          : 21/10/2026
+// Author        : Abhijit Ganesh Kakade
+//
+///////////////////////////////////////////////////////////////////
+
 void CalculateBonus(float fSalary, int iYears)
 {
     float fBonus = 0.0f;
@@ -29,6 +40,12 @@ void CalculateBonus(float fSalary, int iYears)
 
     printf("Bonus = %.2f\n", fBonus);
 }
+
+//////////////////////////////////////////////////
+//
+// Entry point Function Main
+//
+///////////////////////////////////////////////////
 
 int main()
 {
