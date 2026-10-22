@@ -1,9 +1,21 @@
 // Find the Greater of Two Numbers
 
-
-
 #include <stdio.h>
 #include <stdlib.h>
+
+
+typedef int BOOL;
+
+///////////////////////////////////////////////////////////////////
+//
+// Function Name : FindGreater
+// Input         : Integer, Interger
+// Output        : Integer
+// Descryption   : Cheak Number Greater or Equals
+// Date          : 21/10/2026
+// Author        : Abhijit Ganesh kakade
+//
+///////////////////////////////////////////////////////////////////
 
 void FindGreater(int iFirst, int iSecond)
 {
@@ -20,6 +32,12 @@ void FindGreater(int iFirst, int iSecond)
         printf("Both Numbers Are Equal\n");
     }
 }
+
+///////////////////////////////////////////////////////////////////
+//
+// Entry Point Function Main
+//
+///////////////////////////////////////////////////////////////////
 
 int main()
 {
