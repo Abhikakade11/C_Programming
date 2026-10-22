@@ -2,6 +2,16 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+///////////////////////////////////////////////////////////////////
+//
+// Function Name : DisplayConvert
+// Input         : Charcter
+// Descryption   : convert case of that character
+// Date          : 20/10/2026
+// Author        : Abhijit Ganesh kakade
+//
+///////////////////////////////////////////////////////////////////
+
 void DisplayConvert(char CValue)
 {
     if(CValue >= 'a' && CValue <= 'z')
@@ -13,6 +23,12 @@ void DisplayConvert(char CValue)
         printf("%c", CValue + 32);
     }
 }
+
+///////////////////////////////////////////////////////////////
+//
+// Entry Point Function Main
+//
+///////////////////////////////////////////////////////////////
 
 int main()
 {
