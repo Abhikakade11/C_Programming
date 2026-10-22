@@ -4,6 +4,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+///////////////////////////////////////////////////////////////////
+//
+// Function Name : CheakCharacterType
+// Input         : Character
+// Output        : Character
+// Descryption   : Cheak Character upparcase or lovercase in Digit
+// Date          : 21/10/2026
+// Author        : Abhijit Ganesh Kakade
+//
+///////////////////////////////////////////////////////////////////
+
 void CheckCharacterType(char cValue)
 {
     if ((cValue >= 'A') && (cValue <= 'Z'))
@@ -23,6 +34,12 @@ void CheckCharacterType(char cValue)
         printf("Special Character\n");
     }
 }
+
+////////////////////////////////////////////////////////////
+//
+// Entry Point Function Main
+//
+////////////////////////////////////////////////////////////
 
 int main()
 {
