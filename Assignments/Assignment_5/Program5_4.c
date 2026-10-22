@@ -4,6 +4,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+///////////////////////////////////////////////////////////////////
+//
+// Function Name : CheakMultipleDivisibility
+// Input         : Integer
+// Output        : Integer
+// Descryption   : Cheak Divisible or not
+// Date          : 21/10/2026
+// Author        : Abhijit Ganesh Kakade
+//
+///////////////////////////////////////////////////////////////////
+
 void CheckMultipleDivisibility(int iValue)
 {
     if (((iValue % 3) == 0) && ((iValue % 5) == 0))
@@ -23,6 +34,12 @@ void CheckMultipleDivisibility(int iValue)
         printf("Not Divisible by Either\n");
     }
 }
+
+///////////////////////////////////////////////////////
+//
+// Entry Point Function Main
+//
+///////////////////////////////////////////////////////
 
 int main(void)
 {
