@@ -4,6 +4,16 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+///////////////////////////////////////////////////////////////////
+//
+// Function Name : Display
+// Input         : Integer,Integer
+// Descryption   : Accept two numbers from users and display first number in second number of times
+// Date          : 19/10/2026
+// Author        : Abhijit Ganesh Kakade
+//
+///////////////////////////////////////////////////////////////////
+
 void Display(int iNo, int iFrequency)
 {
     int iCnt = 0;
@@ -18,6 +28,12 @@ void Display(int iNo, int iFrequency)
     }
 
 }
+
+/////////////////////////////////////////////////////////////
+//
+// Entry Point Function Main
+//
+/////////////////////////////////////////////////////////////
 
 int main()
 {
