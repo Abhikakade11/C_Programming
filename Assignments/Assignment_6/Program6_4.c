@@ -4,6 +4,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+///////////////////////////////////////////////////////////////////
+//
+// Function Name : CheakTriengle
+// Input         : Integer , Integer, Integer
+// Output        : Integer
+// Descryption   : Find Triangle
+// Date          : 21/10/2026
+// Author        : Abhijit Ganesh Kakade
+//
+///////////////////////////////////////////////////////////////////
+
 void CheckTriangle(int iSide1, int iSide2, int iSide3)
 {
     if (((iSide1 <= 0) || (iSide2 <= 0) || (iSide3 <= 0)))
@@ -23,6 +34,12 @@ void CheckTriangle(int iSide1, int iSide2, int iSide3)
         printf("Invalid Triangle\n");
     }
 }
+
+//////////////////////////////////////////////////
+//
+// Entry Point Funtion Main
+//
+//////////////////////////////////////////////////
 
 int main()
 {
